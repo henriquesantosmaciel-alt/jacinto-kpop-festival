@@ -1,0 +1,1 @@
+const form=document.querySelector('#contact');if(form)form.addEventListener('submit',event=>{event.preventDefault();document.querySelector('#form-result').textContent='Demonstração: sua mensagem não foi enviada.';form.reset()});
